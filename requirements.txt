@@ -1,0 +1,6 @@
+pennylane>=0.40
+numpy
+scipy
+matplotlib
+pytest
+ipykernel
