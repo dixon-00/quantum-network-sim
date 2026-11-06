@@ -1,5 +1,5 @@
 # Entanglement distribution over a small quantum network (PennyLane)
-Dickson Marfo Fosu, KNUST (QCAT Lab)
+KNUST (QCAT Lab)
 
 A stage-by-stage simulation of how two nodes come to share *usable* entanglement over fibre,
 from a single link to a relay with entanglement swapping, quantum memories, clock synchronisation,
@@ -10,7 +10,7 @@ The classical physics (fibre loss, detectors, time-stamps, signalling delay) is 
 Every quantum result is checked against a textbook formula (`tests/test_theory.py`).
 
 > Parameter values are illustrative, typical-of-the-literature numbers. They are not the parameters
-> of any specific CERN or Geneva Quantum Network link.
+> of any specific network link.
 
 ## Stages
 
@@ -25,9 +25,8 @@ Every quantum result is checked against a textbook formula (`tests/test_theory.p
 
 Figures for each stage are saved in `figures/`.
 
-**Overall message.** Whether two nodes can share usable entanglement depends as much on the *classical* side
+**Note** Whether two nodes can share usable entanglement depends as much on the *classical* side
 (timing precision, offset calibration, signalling delay, retry and purification policy) as on the quantum hardware.
-The natural next step is to study that classical control plane at network scale, for example in ns-3 with Q2NS.
 
 ## Running it
 
